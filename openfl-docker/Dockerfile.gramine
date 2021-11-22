@@ -9,8 +9,7 @@ RUN apt-get update && \
     autoconf bison gawk libcurl4-openssl-dev libprotobuf-c-dev \
     ninja-build protobuf-c-compiler python3-click python3-jinja2 \
     build-essential python3-protobuf wget \
-    git pkg-config nano
-    # pkg-config  is needed by the python sgx example
+    git pkg-config ca-certificates nano
 
 # trying to install linux headers
 WORKDIR /tmp/
